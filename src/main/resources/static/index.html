@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>>Smart Device Sensor Dashboard</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container py-5">
+
+        <h1 class="text-center text-white mb-4">
+            Smart Device Sensor Dashboard
+        </h1>
+
+        <div class="text-center mb-3">
+            <button class="btn btn-primary" onclick="loadSensors()">
+                Refresh Data
+            </button>
+        </div>
+
+        <p id="time" class="text-center text-light"></p>
+
+        <div class="row g-4" id="dashboard">
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

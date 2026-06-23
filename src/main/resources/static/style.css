@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body {
+    background: #0f172a;
+    min-height: 100vh;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.sensor-value {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sensor-name {
+    font-size: 20px;
+}
+
+.online {
+    color: green;
+}
+
+.warning {
+    color: orange;
+}
+
+.danger {
+    color: red;
+}
